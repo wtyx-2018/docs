@@ -1,21 +1,13 @@
 {
-  "name": "docs",
+  "name": "vuepress-starter",
   "version": "1.0.0",
-  "description": "学习创建博客",
   "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.8.2"
+  },
   "scripts": {
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/wtyx-2018/docs.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/wtyx-2018/docs/issues"
-  },
-  "homepage": "https://github.com/wtyx-2018/docs#readme"
+  }
 }
